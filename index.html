@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MH | Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">&lt;MarioHaro /&gt;</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <span class="badge">¡Hola, mundo! 👋 Mi nombre es</span>
+            <h1>Mario Yonatan Haro Agreda</h1>
+            <h2>Desarrollador Web & Estudiante de Ingeniería de Software</h2>
+            <p>Apasionado por la arquitectura de software, el desarrollo backend/frontend y la creación de soluciones
+                tecnológicas eficientes.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contact" class="btn btn-outline">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>mí</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Soy estudiante de desarrollo de software en <strong>ISIL</strong>, con experiencia previa en
+                        diseño gráfico publicitario y desarrollo web legacy. Me especializo en construir aplicaciones
+                        robustas, escalables y con un fuerte enfoque en buenas prácticas de ingeniería y ciberseguridad.
+                    </p>
+                    <p>Constantemente me capacito a través de bootcamps y formaciones técnicas (como Full Stack Python,
+                        Java, JavaScript y Seguridad Cloud), buscando aportar valor real en equipos del ecosistema
+                        tecnológico.</p>
+                    <div class="personal-details">
+                        <div class="detail-item"><i class="fa-solid fa-location-dot"></i> Santiago, Chile & Lima, Perú
+                        </div>
+                        <div class="detail-item"><i class="fa-solid fa-graduation-cap"></i> ISIL - Desarrollo de
+                            Software & Sistemas</div>
+                        <div class="detail-item"><i class="fa-solid fa-envelope"></i> marioharo.dev@gmail.com</div>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <h3>Enfoque Tecnológico</h3>
+                    <ul class="highlights-list">
+                        <li><i class="fa-solid fa-check"></i> Arquitectura de Sistemas y Microservicios</li>
+                        <li><i class="fa-solid fa-check"></i> Gestión de Bases de Datos (MySQL, PostgreSQL, DBeaver)
+                        </li>
+                        <li><i class="fa-solid fa-check"></i> Contenedores con Docker & OrbStack</li>
+                        <li><i class="fa-solid fa-check"></i> Control de versiones avanzado con Git y GitHub CLI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Habilidades</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="tags">
+                        <span>HTML5 / CSS3</span>
+                        <span>React</span>
+                        <span>PHP</span>
+                        <span>JavaScript (ES6+)</span>
+                        <span>pnpm</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Lógica</h3>
+                    <div class="tags">
+                        <span>Java (JEE, Spring Boot)</span>
+                        <span>Python / Django</span>
+                        <span>NodeJs</span>
+                        <span>APIs REST</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Bases de Datos & DevOps</h3>
+                    <div class="tags">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>Docker / OrbStack</span>
+                        <span>Git & GitHub CLI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Proyectos <span>Destacados</span></h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/marioharo/spring-edu-manager" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Spring Edu Manager</h3>
+                    <p>Aplicación web educativa en Java utilizando el
+                        ecosistema de Spring (Spring Boot, Spring MVC, Spring Data JPA, Spring Security,
+                        REST) que permita gestionar estudiantes, cursos y evaluaciones.</p>
+                    <div class="project-tech">
+                        <span>Spring Boot</span>
+                        <span>H2</span>
+                        <span>Api Rest</span>
+                        <span>Spring Security</span>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/marioharo/alke_wallet" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>SmartTask (Alkemy)</h3>
+                    <p>Aplicación en Java implementando principios de programación orientada a objetos, jerarquías de
+                        clases abstractas, interfaces y pruebas unitarias con JUnit.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>JUnit</span>
+                        <span>OOP</span>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/marioharo/cineverso-php-PDO" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>CineVerso Dockerized</h3>
+                    <p>Proyecto estructurado mediante Docker Compose para el despliegue integrado de contenedores web y
+                        bases de datos MySQL persistentes.</p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>Dockerfile</span>
+                        <span>MySQL</span>
+                        <span>Javascript</span>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <div class="project-links">
+                            <a href="https://marioharo.github.io/PA_SelvArq/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>SelvArq</h3>
+                    <p>Proyecto web simple para empresa arquitectónica que ofrece distintos servicios.</p>
+                    <div class="project-tech">
+                        <span>Html5</span>
+                        <span>Css</span>
+                        <span>Javascript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+        <div class="container text-center">
+            <h2 class="section-title">¿Conectamos?</h2>
+            <p class="contact-desc">Estoy en la búsqueda de nuevas oportunidades profesionales como Talento Junior o
+                Trainee en tecnología. ¡Hablemos!</p>
+            <div class="contact-actions">
+                <a href="mailto:marioharo.dev@gmail.com" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i>
+                    Enviar Correo</a>
+                <a href="https://github.com/marioharo" target="_blank" class="btn btn-outline"><i
+                        class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mario Yonatan Haro Agreda. Diseñado con estilo moderno y minimalista.</p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
