@@ -1,4 +1,3 @@
-
 # 🚀 Portafolio Personal - Mario Yonatan Haro Agreda
 
 ¡Hola! Bienvenido/a al repositorio de mi portafolio web personal. Este proyecto ha sido diseñado con un enfoque moderno, minimalista y de estética tecnológica (modo oscuro y tarjetas interactivas) para destacar mi perfil, mis habilidades técnicas y los proyectos desarrollados en mi trayectoria.
@@ -9,7 +8,7 @@
 
 Soy estudiante de **Desarrollo de Software en ISIL**, con experiencia previa en diseño gráfico publicitario y desarrollo web. Me especializo en construir aplicaciones robustas, escalables y con un fuerte enfoque en buenas prácticas de ingeniería, bases de datos y arquitectura de sistemas.
 
-- 📍 **Ubicación:** Santiagoiago, Chile & Lima, Perú
+- 📍 **Ubicación:** Santiago, Chile & Lima, Perú
 - 🎓 **Formación:** ISIL (Carrera de Desarrollo de Software)
 - ✉️ **Contacto:** marioharo.dev@gmail.com
 
